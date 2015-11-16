@@ -61,8 +61,9 @@
 2. The compiled files will be on the `target/` directory. This will use
    advanced compilation and prerender the html.
 
-## Reference
+## Other Community Site
  1. http://amsclj.nl/
+ 2. http://www.londonclojurians.org/
 
 ## License
 
