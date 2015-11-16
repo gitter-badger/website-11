@@ -1,14 +1,16 @@
+# secure: use ClojureTaiwan Bot: https://github.com/ClojureTaiwanBot
 language: clojure
+sudo: false
 env:
   global:
   - GH_REF: github.com/clojuew-tw/clojuew-tw.github.io.git
   - secure: TrqmIRnXJ0HR2BQJ+arsBe2FwkSXrNVSNz2BK8GzjEElBGMewwpRkgKLvPnVMSkwea0sd9JAT+w0Ks1R3tl6IBO1uy4qIzMFCnLqZHZxl29loxO6SiizM2N9Izhp5g/V25Qwu8jfIDEVtWZl/J+yk5DucHj93HrjUWeKfhiCtibMEE+i87gy+sg3JWjXcO2WW0TNEPgLlodZvyRCFRmZRBbM8bBThnGg+GWpeVbGVtp8cXdTcG9uPLrF0IWiF5U1wsaAbmxJhqz260jl9U4mGu3G0Ffwh10ja2cj/N9HgUfcdikP+jbaSSPcgpo2/KCSO6nYTyN91tOeuyha5nzYSttfZse+cO+yOhFcY679hqZZDRHSHpqCyzaZRP3mHYzD//1JhAT9Uf18kHKSI4tctrxOAtRBfFZBTBvYGSkSsPQ3LDNkKtoNJ2fVFJ7g1RfDl4vJJaBnmh2xJnLyO+ltzHmcn2apWVxaYQ4V4o3kyGU1r6eGJGwWhCa/5kJGy5H6dY6WG/PvBGy+Lls6vqDSmtcb69c2JkmnTVVGPP9YfjDTu6EbIu6VUjqteOEZbqOJBgGGft56vJZ3gQFzYvXIAuffvMa+Ocrg9n2hlRbZcuoXP7L8I2+3BAS8/VsuAPfKpqZIxfv/DQTNYmLWzjdtS2hQLo+1NvcItyL1kBFjTt0=
 jdk:
-- oraclejdk8
+  - oraclejdk8
 install:
-- wget -O boot https://github.com/boot-clj/boot-bin/releases/download/2.4.2/boot.sh
-- chmod 755 boot
-- ./boot -V
+  - wget -O boot https://github.com/boot-clj/boot-bin/releases/download/2.4.2/boot.sh
+  - chmod 755 boot
+  - ./boot -V
 script:
-- ./boot prod
-- ./deploy.sh
+  - ./boot prod
+  - ./deploy.sh
