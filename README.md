@@ -61,10 +61,10 @@
 2. The compiled files will be on the `target/` directory. This will use
    advanced compilation and prerender the html.
 
+## Reference
+ 1. http://amsclj.nl/
+
 ## License
 
-Copyright © 2015, **Your Name Goes Here**
+Copyright © 2015, **Clojure-Taiwan Community**
 
-[1]: http://boot-clj.com
-[2]: http://localhost:8000
-[3]: http://hoplon.io
