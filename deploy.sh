@@ -17,6 +17,7 @@ git clone "https://${GH_TOKEN}@${GH_REF}" $OUT
 
 # Copy all prebuild files
 cp README.* $OUT
+cp CNAME $OUT
 cp -R target/* $OUT
 
 # go to the out directory and create a *new* Git repo
