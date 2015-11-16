@@ -1,6 +1,9 @@
 # secure: use ClojureTaiwan Bot: https://github.com/ClojureTaiwanBot
 language: clojure
 sudo: false
+branches:
+  only:
+    - source
 env:
   global:
     - GH_REF: github.com/clojure-tw/clojure-tw.github.io.git
