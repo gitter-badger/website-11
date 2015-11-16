@@ -1,6 +1,7 @@
-# clojure-tw.github.io website source
+# clojure-tw.github.io
 
-A [Hoplon][3] project designed to...well, that part is up to you.
+這是 http://clojure-tw.github.io 的網站，使用 [hoplon](http://hoplon.io) 來製作，
+原始碼請見: https://github.com/clojure-tw/website
 
 ## TODO
  1. create basic landing page (via hoplon)
