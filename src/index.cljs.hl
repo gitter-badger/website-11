@@ -1,16 +1,27 @@
 (page "index.html"
-      (:require [components.header :refer [generic-header]]))
+      (:require [components.head :refer [generic-head]]
+                [components.navbar :refer [navbar-layout]]
+                ))
+
+;; ref:
+;; http://ironsummitmedia.github.io/startbootstrap-creative/
+;; http://thebootstrapthemes.com/live/thebootstrapthemes-digitalagency/
+;; http://startbootstrap.com/template-categories/navigation-menus/
+;; http://clojure-conj.org/
+
+(defelem banner []
+  (header
+   (div :class "header-content"
+        (div :class "header-content-inner"
+             (h1 "Clojure Taiwan")
+             (hr)
+             )))
+  )
 
 (html
- (generic-header)
-
+ (generic-head)
  (body :class "index"
+       (navbar-layout)
        ;; banner
-       (section :id "banner"
-                (div :class "inner" (header (h2 "Clojure Taiwan"))
-                     (footer
-                      (img :src "http://clojure-conj.org/images/clojure.png" :height "149" :width "150" :alt "clojure")
-                      )
-                     )
-                )
+       ;;(banner)
        ))
