@@ -1,22 +1,16 @@
-(page "index.html")
+(page "index.html"
+      (:require [components.header :refer [generic-header]]))
 
 (html
- (head
-  (title "Clojure-Taiwan Community")
-  (link :rel "shortcut icon" :href "https://raw.githubusercontent.com/clojure-tw/logo/master/logo.png")
-  (script :src "http://clojure-conj.org/js/jquery.min.js")
-  (script :src "http://clojure-conj.org/js/jquery.dropotron.min.js")
-  (script :src "http://clojure-conj.org/js/skel.min.js")
-  (script :src "http://clojure-conj.org/js/skel-layers.min.js")
-  (link :href "http://clojure-conj.org/css/skel.css" :rel "stylesheet")
-  (link :href "http://clojure-conj.org/css/style.css" :rel "stylesheet"))
+ (generic-header)
 
  (body :class "index"
        ;; banner
        (section :id "banner"
-                (div :class "inner" (header (h2 "Clojure Taiwan")))
-                (footer
-                 (img :src "http://clojure-conj.org/images/clojure.png" :height "149" :width "150" :alt "clojure")
-                 )
+                (div :class "inner" (header (h2 "Clojure Taiwan"))
+                     (footer
+                      (img :src "http://clojure-conj.org/images/clojure.png" :height "149" :width "150" :alt "clojure")
+                      )
+                     )
                 )
        ))

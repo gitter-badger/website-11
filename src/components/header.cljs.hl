@@ -1,0 +1,15 @@
+(ns components.header)
+
+(defelem generic-header
+  [children]
+  (head
+   (title "Clojure-Taiwan Community")
+   (link :rel "shortcut icon" :href "https://raw.githubusercontent.com/clojure-tw/logo/master/logo.png")
+   (script :src "http://clojure-conj.org/js/jquery.min.js")
+   (script :src "http://clojure-conj.org/js/jquery.dropotron.min.js")
+   (script :src "http://clojure-conj.org/js/skel.min.js")
+;;   (script :src "http://clojure-conj.org/js/skel-layers.min.js")
+   (link :href "http://clojure-conj.org/css/skel.css" :rel "stylesheet")
+   (link :href "http://clojure-conj.org/css/style.css" :rel "stylesheet")
+   (link :href "app.css" :rel "stylesheet")
+   children))

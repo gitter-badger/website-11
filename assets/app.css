@@ -1,8 +1,7 @@
-body {
-    margin: 0;
-    padding: 20px;
-}
 
-h1 {
-    color: blue;
+#banner {
+    background-image: url("images/travel-world-taipei-101-taiwan-wallpaper-39168.jpg") ;
+    background-position: bottom left, bottom right, top left, top center;
+    background-repeat: no-repeat, no-repeat, repeat, no-repeat;
+    background-size: 55em, 50em, auto, cover;
 }
