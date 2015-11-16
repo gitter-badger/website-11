@@ -64,6 +64,7 @@
 ## Other Community Site
  1. http://amsclj.nl/
  2. http://www.londonclojurians.org/
+ 3. http://beclojure.org/
 
 ## License
 
