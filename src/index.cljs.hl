@@ -1,7 +1,21 @@
 (page "index.html")
 
 (html
-  (head
-    (link :href "app.css" :rel "stylesheet"))
-  (body
-    (h1 "Hello, Clojure Taiwan!")))
+ (head
+  (title "Clojure-Taiwan Community")
+  (script :src "http://clojure-conj.org/js/jquery.min.js")
+  (script :src "http://clojure-conj.org/js/jquery.dropotron.min.js")
+  (script :src "http://clojure-conj.org/js/skel.min.js")
+  (script :src "http://clojure-conj.org/js/skel-layers.min.js")
+  (link :href "http://clojure-conj.org/css/skel.css" :rel "stylesheet")
+  (link :href "http://clojure-conj.org/css/style.css" :rel "stylesheet"))
+
+ (body :class "index"
+       ;; banner
+       (section :id "banner"
+                (div :class "inner" (header (h2 "Clojure Taiwan")))
+                (footer
+                 (img :src "http://clojure-conj.org/images/clojure.png" :height "149" :width "150" :alt "clojure")
+                 )
+                )
+       ))
