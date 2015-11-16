@@ -20,6 +20,8 @@
 ## 理念
  1. 提供 Clojure 相關資訊給台灣想學 Clojure 的迷途羔羊們
  2. 不和 `營利` 扯上邊 (我們只想享受語言的樂趣、知識應該共享)
+ 
 
 ## 合作
  1. 共同寫 clojure/clojurescript Open Source 專案, ex: 結巴分詞的 clojure 版本
+ 2. 協作翻譯 clojure 相關開放資訊? (ex: modern-cljs)
