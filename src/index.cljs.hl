@@ -25,7 +25,7 @@
   (navbar-layout)
   ;; banner
   ;;(banner)
-  (div :id "container"
+  (div :class "container"
        (br) (br) (br)
        (h3 "Resources")
        (ul
