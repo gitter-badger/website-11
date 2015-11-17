@@ -10,6 +10,8 @@
 ;; http://clojure-conj.org/
 ;; http://www.templatemo.com/templates/templatemo_411_dragonfruit/
 ;; http://themefisher.com/themes/small-apps/
+;; http://www.columbusclojure.com/
+;; http://www.codeandsupply.co/
 
 (defelem banner []
   (header
