@@ -1,6 +1,7 @@
 # clojure-tw.github.io
 [![Build Status](https://travis-ci.org/clojure-tw/website.svg?branch=master)](https://travis-ci.org/clojure-tw/website)
 [![License](http://img.shields.io/badge/license-GPL-blue.svg?style=flat)](http://www.opensource.org/licenses/gpl-license.html)
+[![waffle.io](http://waffle.io/clojure-tw/website)](https://badge.waffle.io/clojure-tw/website.png?label=ready&title=Ready)
 
 這是 http://clojure-tw.github.io 的網站，使用 [hoplon](http://hoplon.io) 來製作，
 原始碼請見: https://github.com/clojure-tw/website
@@ -69,4 +70,3 @@
 ## License
 
 Copyright © 2015, **Clojure-Taiwan Community**
-
